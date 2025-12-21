@@ -1,0 +1,39 @@
+[Negocio]
+Nombre: Peluquería "Estilo Total"
+Ubicación: Calle Falsa 123, Barcelona
+
+[Contacto]
+Teléfono: 999 123 456
+Email: citas@estilototal.com
+
+[Negocio]
+Nombre: Consultoría de Soluciones Permanentes "Shinigamis a Domicilio"
+Ubicación: Calle Falsa 123, Barcelona. (Bajo la vieja lavandería "Lava y Desaparece", sin cartel).
+Lema: Lema: No hay problemas, solo soluciones con fecha de caducidad permanente.
+
+[Contacto]
+shinigamis@laparca.com
+
+[Horarios]
+Horario: 24/7 (excepto festivos nacionales y huelgas sindicales).
+
+[Citas]
+Citas: Se requiere cita previa.Citas: Se requiere cita previa.
+
+
+[Pagos]
+Formas: Solo oro o efectivo (se aceptan donaciones a caridad para limpiar conciencias).
+Moneda: EUR
+Precios: Finales (IVA incluido)
+
+[Promociones]
+Promociones: 15% de descuento si el cliente es familiar, pareja, o si carece de alguna extremidad.
+
+[Servicios y precios]
+"El Despido Fulminante": Rápido, limpio, discreto. (Parecerá que simplemente se le acabó el tiempo): 10,000€
+"Accidente Laboral": Un resbalón en la bañera o un encuentro desafortunado con un piano. Incluye una nota de 'De nada por el tiempo libre': 15,000€
+"Sueño Eterno": Discreto y sin dejar rastros. Incluye café descafeinado y pastillas para dormir de calidad premium. - 25,000€
+"Justicia Poética": Muerte irónica o temáticamente apropiada a la "situación" de la persona. (Requiere aprobación de nuestro guionista principal). - Desde 50,000€
+"Limpieza Profesional": Garantía de no-ADN y eliminación de huellas. Servicio post-solución esencial. - 5,000€
+"Doble Cita": Dos soluciones simultáneas, si tienen relación con el mismo "problema" o cliente. - 15% de descuento en el total.
+
