@@ -1,0 +1,10 @@
+I:\2 DAM\M7 - Desarrollo de Interficies\RA2 - Asistente de Voz\Asistente_Miriam\AsistenteVoz\AsistenteVoz\bin\Debug\AsistenteVoz.exe.config
+I:\2 DAM\M7 - Desarrollo de Interficies\RA2 - Asistente de Voz\Asistente_Miriam\AsistenteVoz\AsistenteVoz\bin\Debug\AsistenteVoz.exe
+I:\2 DAM\M7 - Desarrollo de Interficies\RA2 - Asistente de Voz\Asistente_Miriam\AsistenteVoz\AsistenteVoz\bin\Debug\AsistenteVoz.pdb
+I:\2 DAM\M7 - Desarrollo de Interficies\RA2 - Asistente de Voz\Asistente_Miriam\AsistenteVoz\AsistenteVoz\obj\Debug\AsistenteVoz.csproj.AssemblyReference.cache
+I:\2 DAM\M7 - Desarrollo de Interficies\RA2 - Asistente de Voz\Asistente_Miriam\AsistenteVoz\AsistenteVoz\obj\Debug\AsistenteVoz.Form1.resources
+I:\2 DAM\M7 - Desarrollo de Interficies\RA2 - Asistente de Voz\Asistente_Miriam\AsistenteVoz\AsistenteVoz\obj\Debug\AsistenteVoz.Properties.Resources.resources
+I:\2 DAM\M7 - Desarrollo de Interficies\RA2 - Asistente de Voz\Asistente_Miriam\AsistenteVoz\AsistenteVoz\obj\Debug\AsistenteVoz.csproj.GenerateResource.cache
+I:\2 DAM\M7 - Desarrollo de Interficies\RA2 - Asistente de Voz\Asistente_Miriam\AsistenteVoz\AsistenteVoz\obj\Debug\AsistenteVoz.csproj.CoreCompileInputs.cache
+I:\2 DAM\M7 - Desarrollo de Interficies\RA2 - Asistente de Voz\Asistente_Miriam\AsistenteVoz\AsistenteVoz\obj\Debug\AsistenteVoz.exe
+I:\2 DAM\M7 - Desarrollo de Interficies\RA2 - Asistente de Voz\Asistente_Miriam\AsistenteVoz\AsistenteVoz\obj\Debug\AsistenteVoz.pdb
