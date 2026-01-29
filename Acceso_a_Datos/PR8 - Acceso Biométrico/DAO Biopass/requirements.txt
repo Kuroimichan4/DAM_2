@@ -1,0 +1,6 @@
+# lista de herramientas externas que necesito
+
+python-dotenv
+psycopg2-binary
+opencv-python
+Pillow
