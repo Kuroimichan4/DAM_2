@@ -1,0 +1,16 @@
+F:\2 DAM\M7 - Desarrollo de Interficies\RA3 -Reloj\ProyectoReloj\Reloj\MisComponentesLib\bin\Debug\MisComponentesLib.dll
+F:\2 DAM\M7 - Desarrollo de Interficies\RA3 -Reloj\ProyectoReloj\Reloj\MisComponentesLib\bin\Debug\MisComponentesLib.pdb
+F:\2 DAM\M7 - Desarrollo de Interficies\RA3 -Reloj\ProyectoReloj\Reloj\MisComponentesLib\obj\Debug\MisComponentesLib.csproj.AssemblyReference.cache
+F:\2 DAM\M7 - Desarrollo de Interficies\RA3 -Reloj\ProyectoReloj\Reloj\MisComponentesLib\obj\Debug\MisComponentesLib.RelojDigital.resources
+F:\2 DAM\M7 - Desarrollo de Interficies\RA3 -Reloj\ProyectoReloj\Reloj\MisComponentesLib\obj\Debug\MisComponentesLib.csproj.GenerateResource.cache
+F:\2 DAM\M7 - Desarrollo de Interficies\RA3 -Reloj\ProyectoReloj\Reloj\MisComponentesLib\obj\Debug\MisComponentesLib.csproj.CoreCompileInputs.cache
+F:\2 DAM\M7 - Desarrollo de Interficies\RA3 -Reloj\ProyectoReloj\Reloj\MisComponentesLib\obj\Debug\MisComponentesLib.dll
+F:\2 DAM\M7 - Desarrollo de Interficies\RA3 -Reloj\ProyectoReloj\Reloj\MisComponentesLib\obj\Debug\MisComponentesLib.pdb
+I:\2 DAM\M7 - Desarrollo de Interficies\RA3 -Reloj\ProyectoReloj\Reloj\MisComponentesLib\bin\Debug\MisComponentesLib.dll
+I:\2 DAM\M7 - Desarrollo de Interficies\RA3 -Reloj\ProyectoReloj\Reloj\MisComponentesLib\bin\Debug\MisComponentesLib.pdb
+I:\2 DAM\M7 - Desarrollo de Interficies\RA3 -Reloj\ProyectoReloj\Reloj\MisComponentesLib\obj\Debug\MisComponentesLib.csproj.AssemblyReference.cache
+I:\2 DAM\M7 - Desarrollo de Interficies\RA3 -Reloj\ProyectoReloj\Reloj\MisComponentesLib\obj\Debug\MisComponentesLib.RelojDigital.resources
+I:\2 DAM\M7 - Desarrollo de Interficies\RA3 -Reloj\ProyectoReloj\Reloj\MisComponentesLib\obj\Debug\MisComponentesLib.csproj.GenerateResource.cache
+I:\2 DAM\M7 - Desarrollo de Interficies\RA3 -Reloj\ProyectoReloj\Reloj\MisComponentesLib\obj\Debug\MisComponentesLib.csproj.CoreCompileInputs.cache
+I:\2 DAM\M7 - Desarrollo de Interficies\RA3 -Reloj\ProyectoReloj\Reloj\MisComponentesLib\obj\Debug\MisComponentesLib.dll
+I:\2 DAM\M7 - Desarrollo de Interficies\RA3 -Reloj\ProyectoReloj\Reloj\MisComponentesLib\obj\Debug\MisComponentesLib.pdb
