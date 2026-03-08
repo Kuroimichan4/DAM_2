@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "I:\\2 DAM\\M7 - Desarrollo de Interficies\\RA5 - Informes Profesionales con RDLC\\InformeProductos_Miriam\\InformeProductosRDLC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F840074-17D2-49B8-B5C2-48C7D2024815}|InformeProductosRDLC\\InformeProductosRDLC.csproj|i:\\2 dam\\m7 - desarrollo de interficies\\ra5 - informes profesionales con rdlc\\informeproductos_miriam\\informeproductosrdlc\\informeproductosrdlc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F840074-17D2-49B8-B5C2-48C7D2024815}|InformeProductosRDLC\\InformeProductosRDLC.csproj|solutionrelative:informeproductosrdlc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F840074-17D2-49B8-B5C2-48C7D2024815}|InformeProductosRDLC\\InformeProductosRDLC.csproj|i:\\2 dam\\m7 - desarrollo de interficies\\ra5 - informes profesionales con rdlc\\informeproductos_miriam\\informeproductosrdlc\\informeproductosrdlc\\informerdlc.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{2F840074-17D2-49B8-B5C2-48C7D2024815}|InformeProductosRDLC\\InformeProductosRDLC.csproj|solutionrelative:informeproductosrdlc\\informerdlc.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F840074-17D2-49B8-B5C2-48C7D2024815}|InformeProductosRDLC\\InformeProductosRDLC.csproj|i:\\2 dam\\m7 - desarrollo de interficies\\ra5 - informes profesionales con rdlc\\informeproductos_miriam\\informeproductosrdlc\\informeproductosrdlc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F840074-17D2-49B8-B5C2-48C7D2024815}|InformeProductosRDLC\\InformeProductosRDLC.csproj|solutionrelative:informeproductosrdlc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F840074-17D2-49B8-B5C2-48C7D2024815}|InformeProductosRDLC\\InformeProductosRDLC.csproj|I:\\2 DAM\\M7 - Desarrollo de Interficies\\RA5 - Informes Profesionales con RDLC\\InformeProductos_Miriam\\InformeProductosRDLC\\informeproductosrdlc\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F840074-17D2-49B8-B5C2-48C7D2024815}|InformeProductosRDLC\\InformeProductosRDLC.csproj|solutionrelative:informeproductosrdlc\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F840074-17D2-49B8-B5C2-48C7D2024815}|InformeProductosRDLC\\InformeProductosRDLC.csproj|I:\\2 DAM\\M7 - Desarrollo de Interficies\\RA5 - Informes Profesionales con RDLC\\InformeProductos_Miriam\\InformeProductosRDLC\\informeproductosrdlc\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{2F840074-17D2-49B8-B5C2-48C7D2024815}|InformeProductosRDLC\\InformeProductosRDLC.csproj|solutionrelative:informeproductosrdlc\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InformeRDLC.rdlc [Dise\u00F1o]",
+              "DocumentMoniker": "I:\\2 DAM\\M7 - Desarrollo de Interficies\\RA5 - Informes Profesionales con RDLC\\InformeProductos_Miriam\\InformeProductosRDLC\\InformeProductosRDLC\\InformeRDLC.rdlc",
+              "RelativeDocumentMoniker": "InformeProductosRDLC\\InformeRDLC.rdlc",
+              "ToolTip": "I:\\2 DAM\\M7 - Desarrollo de Interficies\\RA5 - Informes Profesionales con RDLC\\InformeProductos_Miriam\\InformeProductosRDLC\\InformeProductosRDLC\\InformeRDLC.rdlc [Dise\u00F1o]",
+              "RelativeToolTip": "InformeProductosRDLC\\InformeRDLC.rdlc [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2026-03-08T15:46:01.65Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "I:\\2 DAM\\M7 - Desarrollo de Interficies\\RA5 - Informes Profesionales con RDLC\\InformeProductos_Miriam\\InformeProductosRDLC\\InformeProductosRDLC\\Form1.cs",
+              "RelativeDocumentMoniker": "InformeProductosRDLC\\Form1.cs",
+              "ToolTip": "I:\\2 DAM\\M7 - Desarrollo de Interficies\\RA5 - Informes Profesionales con RDLC\\InformeProductos_Miriam\\InformeProductosRDLC\\InformeProductosRDLC\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "InformeProductosRDLC\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T11:10:17.256Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "I:\\2 DAM\\M7 - Desarrollo de Interficies\\RA5 - Informes Profesionales con RDLC\\InformeProductos_Miriam\\InformeProductosRDLC\\InformeProductosRDLC\\Form1.cs",
+              "RelativeDocumentMoniker": "InformeProductosRDLC\\Form1.cs",
+              "ToolTip": "I:\\2 DAM\\M7 - Desarrollo de Interficies\\RA5 - Informes Profesionales con RDLC\\InformeProductos_Miriam\\InformeProductosRDLC\\InformeProductosRDLC\\Form1.cs",
+              "RelativeToolTip": "InformeProductosRDLC\\Form1.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAWwCEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T17:27:59.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "I:\\2 DAM\\M7 - Desarrollo de Interficies\\RA5 - Informes Profesionales con RDLC\\InformeProductos_Miriam\\InformeProductosRDLC\\InformeProductosRDLC\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "InformeProductosRDLC\\Form1.Designer.cs",
+              "ToolTip": "I:\\2 DAM\\M7 - Desarrollo de Interficies\\RA5 - Informes Profesionales con RDLC\\InformeProductos_Miriam\\InformeProductosRDLC\\InformeProductosRDLC\\Form1.Designer.cs",
+              "RelativeToolTip": "InformeProductosRDLC\\Form1.Designer.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAiwDEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T20:55:44.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "I:\\2 DAM\\M7 - Desarrollo de Interficies\\RA5 - Informes Profesionales con RDLC\\InformeProductos_Miriam\\InformeProductosRDLC\\InformeProductosRDLC\\Form1.resx",
+              "RelativeDocumentMoniker": "InformeProductosRDLC\\Form1.resx",
+              "ToolTip": "I:\\2 DAM\\M7 - Desarrollo de Interficies\\RA5 - Informes Profesionales con RDLC\\InformeProductos_Miriam\\InformeProductosRDLC\\InformeProductosRDLC\\Form1.resx",
+              "RelativeToolTip": "InformeProductosRDLC\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-03-07T20:45:12.26Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

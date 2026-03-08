@@ -1,0 +1,15 @@
+I:\2 DAM\M7 - Desarrollo de Interficies\RA5 - Informes Profesionales con RDLC\InformeProductos_Miriam\InformeProductosRDLC\InformeProductosRDLC\bin\Debug\InformeProductosRDLC.exe.config
+I:\2 DAM\M7 - Desarrollo de Interficies\RA5 - Informes Profesionales con RDLC\InformeProductos_Miriam\InformeProductosRDLC\InformeProductosRDLC\bin\Debug\InformeProductosRDLC.exe
+I:\2 DAM\M7 - Desarrollo de Interficies\RA5 - Informes Profesionales con RDLC\InformeProductos_Miriam\InformeProductosRDLC\InformeProductosRDLC\bin\Debug\InformeProductosRDLC.pdb
+I:\2 DAM\M7 - Desarrollo de Interficies\RA5 - Informes Profesionales con RDLC\InformeProductos_Miriam\InformeProductosRDLC\InformeProductosRDLC\bin\Debug\Microsoft.ReportViewer.Common.dll
+I:\2 DAM\M7 - Desarrollo de Interficies\RA5 - Informes Profesionales con RDLC\InformeProductos_Miriam\InformeProductosRDLC\InformeProductosRDLC\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+I:\2 DAM\M7 - Desarrollo de Interficies\RA5 - Informes Profesionales con RDLC\InformeProductos_Miriam\InformeProductosRDLC\InformeProductosRDLC\obj\Debug\InformeProductosRDLC.csproj.AssemblyReference.cache
+I:\2 DAM\M7 - Desarrollo de Interficies\RA5 - Informes Profesionales con RDLC\InformeProductos_Miriam\InformeProductosRDLC\InformeProductosRDLC\obj\Debug\InformeProductosRDLC.Form1.resources
+I:\2 DAM\M7 - Desarrollo de Interficies\RA5 - Informes Profesionales con RDLC\InformeProductos_Miriam\InformeProductosRDLC\InformeProductosRDLC\obj\Debug\InformeProductosRDLC.Properties.Resources.resources
+I:\2 DAM\M7 - Desarrollo de Interficies\RA5 - Informes Profesionales con RDLC\InformeProductos_Miriam\InformeProductosRDLC\InformeProductosRDLC\obj\Debug\InformeProductosRDLC.csproj.GenerateResource.cache
+I:\2 DAM\M7 - Desarrollo de Interficies\RA5 - Informes Profesionales con RDLC\InformeProductos_Miriam\InformeProductosRDLC\InformeProductosRDLC\obj\Debug\InformeProductosRDLC.csproj.CoreCompileInputs.cache
+I:\2 DAM\M7 - Desarrollo de Interficies\RA5 - Informes Profesionales con RDLC\InformeProductos_Miriam\InformeProductosRDLC\InformeProductosRDLC\obj\Debug\InformeP.C8E577B7.Up2Date
+I:\2 DAM\M7 - Desarrollo de Interficies\RA5 - Informes Profesionales con RDLC\InformeProductos_Miriam\InformeProductosRDLC\InformeProductosRDLC\obj\Debug\InformeProductosRDLC.exe
+I:\2 DAM\M7 - Desarrollo de Interficies\RA5 - Informes Profesionales con RDLC\InformeProductos_Miriam\InformeProductosRDLC\InformeProductosRDLC\obj\Debug\InformeProductosRDLC.pdb
+I:\2 DAM\M7 - Desarrollo de Interficies\RA5 - Informes Profesionales con RDLC\InformeProductos_Miriam\InformeProductosRDLC\InformeProductosRDLC\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+I:\2 DAM\M7 - Desarrollo de Interficies\RA5 - Informes Profesionales con RDLC\InformeProductos_Miriam\InformeProductosRDLC\InformeProductosRDLC\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
