@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "925958524071",
+    "project_id": "michi-kahoot",
+    "storage_bucket": "michi-kahoot.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925958524071:android:bb29ccd8e8dd22cebcdf82",
+        "android_client_info": {
+          "package_name": "com.example.mini_kahoot_teacher"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs1Eqdyk78G6FAYGxS59cQ8AuXy37ZmZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925958524071:android:8feda323e05ed196bcdf82",
+        "android_client_info": {
+          "package_name": "com.miriam.kahoot.kahoot_servidor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs1Eqdyk78G6FAYGxS59cQ8AuXy37ZmZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
