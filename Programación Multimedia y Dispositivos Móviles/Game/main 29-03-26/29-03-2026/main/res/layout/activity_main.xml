@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo_MHN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/titulo"
+        android:letterSpacing="0.05"
+        android:text="JAGGERNOUT MISSION"
+        android:textAlignment="center"
+        android:textColor="#1232E4"
+        android:textSize="60sp"
+        android:shadowColor="#448AFF"
+        android:shadowDx="8"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nombreJugador_MHN"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Introduce tu nombre"
+        android:textSize="10sp"
+        android:fontFamily="@font/pixel"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <android.widget.Button
+            android:id="@+id/btnNivel1_MHN"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/holo_blue_dark"
+            android:backgroundTint="#3BBC32"
+            android:fontFamily="@font/pixel"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:lineSpacingExtra="4dp"
+            android:text="Nivel\n\n1"
+            android:textSize="12sp" />
+
+        <android.widget.Button
+            android:id="@+id/btnNivel2_MHN"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/holo_blue_dark"
+            android:backgroundTint="#FF5722"
+            android:fontFamily="@font/pixel"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="Nivel\n\n2"
+            android:textSize="12sp" />
+
+        <android.widget.Button
+            android:id="@+id/btnNivel3_MHN"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="#C72D2D"
+            android:fontFamily="@font/pixel"
+            android:text="Nivel\n\n3"
+            android:textSize="12sp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:background="@android:color/holo_blue_dark" />
+
+    </LinearLayout>
+
+</LinearLayout>
