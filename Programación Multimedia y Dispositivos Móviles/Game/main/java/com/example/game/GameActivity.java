@@ -31,45 +31,54 @@ public class GameActivity extends AppCompatActivity {
 
         // para la reproducción de la música y efectos
 
-//        mediaPlayer_MHN = MediaPlayer.create(this, R.raw.musica_fondo);
-//        mediaPlayer_MHN.setLooping(true);
-//        mediaPlayer_MHN.start();
+        mediaPlayer_MHN = MediaPlayer.create(this, R.raw.musica_fondo);
+        mediaPlayer_MHN.setLooping(true);
+        mediaPlayer_MHN.start();
 
     }
-//
-//    // cortar musica al cerrar pantalla o cambiarla -//
-//    @Override
-//    protected void onPause() {
-//        super.onPause();
-//        if (mediaPlayer_MHN != null && mediaPlayer_MHN.isPlaying()) {
-//            mediaPlayer_MHN.pause();
-//        }
-//    }
-//
-//    @Override
-//    protected void onResume() {
-//        super.onResume();
-//        if (mediaPlayer_MHN != null) {
-//            mediaPlayer_MHN.start();
-//        }
-//    }
-//
-//    @Override
-//    protected void onDestroy() {
-//        super.onDestroy();
-//        if (mediaPlayer_MHN != null) {
-//            mediaPlayer_MHN.release();
-//            mediaPlayer_MHN = null;
-//        }
-//    }
+
+    // cortar musica al cerrar pantalla o cambiarla -//
+    @Override
+    protected void onPause() {
+        super.onPause();
+        if (mediaPlayer_MHN != null && mediaPlayer_MHN.isPlaying()) {
+            mediaPlayer_MHN.pause();
+        }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (mediaPlayer_MHN != null) {
+            mediaPlayer_MHN.start();
+        }
+    }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
 
+        //  Libera la música de fondo
+        if (mediaPlayer_MHN != null) {
+            mediaPlayer_MHN.release();
+            mediaPlayer_MHN = null;
+        }
+
+        // Libera los efectos del SoundPool de la vista
         VistaPropia vistaJuego = findViewById(R.id.vistaJuego);
         if (vistaJuego != null) {
             vistaJuego.liberarSonidos();
         }
+
+    }
+    public void pararMusica_MHN() {
+        if (mediaPlayer_MHN != null && mediaPlayer_MHN.isPlaying()) {
+            mediaPlayer_MHN.pause(); // O .stop() si prefieres que no se retome
+        }
+    }
+
+    // para que VistaPropia pueda acceder al reproductor de música
+    public MediaPlayer getMediaPlayer_MHN() {
+        return mediaPlayer_MHN;
     }
 }

@@ -12,8 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Game">
         <activity
+            android:name=".GameActivity"
+            android:exported="false"
+            android:screenOrientation="landscape"/> <!-- igual tengo que poner aquí el tema de la orientación y cambiar el modo de movimiento -->
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
