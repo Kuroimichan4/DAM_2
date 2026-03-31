@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruebas</title>
+    <link rel="stylesheet" href="EnsayoCSS.css">
+    <script src="EnsayoJS.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" alt="PokéApi logo">
+            </div>
+            <div class="navHTML">
+                <a href="#inicio">Inicio</a>
+                <a href="#sobre mi">Sobre mi</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <div class="navB">
+                <button id="a">A</button>
+                <button id="b">B</button>
+                <button id="c">C</button>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main id="contenido">
+        <h1>Miriam</h1>
+        <img src="https://ih1.redbubble.net/image.527988854.0033/farp,small,wall_texture,product,750x1000.jpg" alt="Kanji Chikara">
+        <div id="contentA"></div>
+
+        <section id="inicio">
+            <p>No sé qué poner y ya wiiiiiii</p>
+            
+
+        </section>
+        <section id="sobre mi">
+            <ul>
+                <li>manga</li>
+                <li>musica</li>
+                <li>videjuegos</li>
+                <li>cine</li>
+                <li>libros</li>
+            </ul>
+            <ol>
+                <li>dormir</li>
+                <li>seguir duermiendo</li>
+                <li>dormir un poco más</li>
+            </ol>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Tecnología</th>
+                        <th>Dominio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>sí</td>
+                    </tr>
+                    <tr>
+                        <td>JAVA</td>
+                        <td>sí</td>
+                    </tr>
+                    <tr>
+                        <td>SQL</td>
+                        <td>sí</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+
+        <section id="proyectos">
+
+        </section>
+
+        <section id="desplegable">
+            <label for="joder">Formas de tocar los huevos: </label>
+            <select id="joder">
+                <option value="">Selecciona un tipo</option>
+                <option value="cosquillas">Cosquillas</option>
+                <option value="patada">Patada en la espunilla</option>
+                <option value="dinero">Pedir dinero</option>
+            </select>
+
+        </section>
+
+        <section id="buttons">
+            <fieldset> <!-- Esto solo crea un recuadro para los checboxes para agruparlos visualmente -->
+                <legend>Habilidades</legend> <!-- Solo es el titulo del recuadro -->
+        
+                <label><input type="checkbox" name="habilidades" value="molestar">Molestar</label>
+                <label><input type="checkbox" name="habilidades" value="humor">Humor negro</label>
+                <label><input type="checkbox" name="habilidades" value="vaguear">vaguear</label>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="formNom">
+                <label for="nombre">Nombre: </label><!-- label Solo es una etiqueta descriptiva  y el for es para indicar a qué id pertenece-->
+                <input type="text" id="nombre" name="nombre" placeholder="Ej: Papadopoulos" required> <!-- el required es para indicar campo obligatorio -->
+
+                <label for="email">Email: </label>
+                <input type="text" id="email" name="email" placeholder="Ej: Papadopoulos@gmail.com" required>
+                <label for="mensaje">Mensaje: </label>
+                <textarea id="mensaje" name="mensaje" placeholder="Ej: Me cago en tu puta madre" rows="5"> <!-- el rows es para indicar cuanto va a medir de alto (no es obligatorio) -->
+
+                <button type="submit">Enviar</button>
+
+            </form>
+
+        
+        </section>
+        
+        
+
+    </main>
+
+    <footer>
+    <p>&copy; Michi intento de recordar todo licensed</p>
+</footer>
+</body>
+
+</html>
