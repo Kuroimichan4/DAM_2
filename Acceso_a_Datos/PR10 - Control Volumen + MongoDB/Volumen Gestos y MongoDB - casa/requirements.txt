@@ -1,0 +1,8 @@
+opencv-python # para la webcam
+mediapipe==0.10.13 # para que detecte la mano
+numpy   # para hacer calculos
+pymongo # para conectar a mongoDB
+python-dotenv #  como siempre, para leer las varoiables de entorno del .env
+comtypes # controla el volumen
+pycaw # también controla el volumen
+
