@@ -1,14 +1,13 @@
 # captura audio del micro y lo convierte a texto. Si no pilla nada da None o la excepción que sea
-from tkinter import messagebox
 
-import speech_recognition as sr
+import speech_recognition as sr # accede al micro, captura el audio,y lo manda a goolgle para convertirlo a texto
 
 
 class VoiceService:
 
     def escuchar_frase(self) -> str | None:
 
-        recognizer = sr.Recognizer()
+        recognizer = sr.Recognizer() # Se encarga de procesar la señal de audio, limpiar el ruido y enviarla a la nube para que se convierta en texto
 
         # abre el micro y se apaga al acabar como con la conexión de la BBDD
         with sr.Microphone() as source: # señor micro? XD
@@ -18,7 +17,7 @@ class VoiceService:
             recognizer.adjust_for_ambient_noise(source, duration=0.6) # lo de la duración es cuanto tarda en calibrar, cuanto mas tarda en calibrar mejor pero parece que el micro tarda en reaccionar
 
             try :
-                # el timeout: si no hablas, a los 5 segundos se corta; phrase_time_limit: máximo de segundos que puede surar la frase
+                # el timeout: si no hablas, a los 6 segundos se corta; phrase_time_limit: máximo de segundos que puede surar la frase
                 audio = recognizer.listen(source, timeout=6, phrase_time_limit=6)
 
             except sr.WaitTimeoutError:

@@ -9,6 +9,8 @@ from src.voice_service import VoiceService
 class VoiceAuditApp:
     def __init__(self, root: tk.Tk):
         self.root = root
+        # al guardar root dentro de self.root (estamos guardando la ventana dentro del objeto)
+        # la clase puede mandar sobre la ventana principal y modificar la vista
         self.root.title("VoiceAudit Login")
         self.root.geometry("520x420")
         self.root.minsize(520, 420)
@@ -37,7 +39,9 @@ class VoiceAuditApp:
         form.pack(fill="x")
 
         tk.Label(form, text="Username:", font=("Segoe UI", 10, "bold")).grid(row=0, column=0, sticky="w")
-        self.username_entry = tk.Entry(form, width=32, font=("Segoe UI", 11))
+
+        self.username_entry = tk.Entry(form, width=32, font=("Segoe UI", 11)) # Entry es el equivalente a un Input
+        # self.username_entry es un objeto de tk de tipo entry que representa una caja de texto con el contenido, el estilo y las funcionesº
         self.username_entry.grid(row=1, column=0, sticky="we", pady=(4, 0))
 
         form.columnconfigure(0, weight=1)
@@ -65,6 +69,17 @@ class VoiceAuditApp:
             pady=6
         )
         self.btn_limpiar.pack(side="right")
+
+        #login----------------------------------------------------------------------------------------
+        self.btn_registrar = tk.Button(
+            buttons,
+            text="Registrar",
+            font=("Segoe UI", 11),
+            command=self.registrar_por_voz,
+            padx=10,
+            pady=6
+        )
+        self.btn_registrar.pack(side="left", padx=(10, 0))
 
         # --- notifaciones de stado
         self.status_label = tk.Label(container, text="Estado: esperando…", fg="#666", font=("Segoe UI", 10))
@@ -107,7 +122,7 @@ class VoiceAuditApp:
 
     # helpers
     def _set_log_readonly(self, readonly: bool):
-        self.log_text.configure(state=("disabled" if readonly else "normal"))
+        self.log_text.configure(state=("disabled" if readonly else "normal")) # para que no puedan escribir en el log
 
     def log(self, msg: str, level: str = "INFO"):
         ts = datetime.now().strftime("%H:%M:%S")
@@ -129,7 +144,7 @@ class VoiceAuditApp:
 
     # --- Lógica ---
     def login_por_voz(self):
-        username = self.username_entry.get().strip()
+        username = self.username_entry.get().strip() # pilla el string del nombre
 
         if not username:
             self.set_status("falta username", "WARN")
@@ -142,15 +157,20 @@ class VoiceAuditApp:
 
         threading.Thread(target=self._escuchar_en_hilo, args=(username,), daemon=True).start()
 
+
     def _escuchar_en_hilo(self, username: str):
         try:
             passphrase = self.voice.escuchar_frase()
         except Exception as e:
             passphrase = None
             # Log de error técnico
+
             self.root.after(0, lambda: self.log(f"Error técnico escuchando: {e}", "ERR"))
+            # root.after es para regresar al hilo principal con la interfaz
 
         self.root.after(0, lambda: self._procesar_resultado_voz(username, passphrase))
+        # self.root.after(tiempo_en_milisegundos, mini funcion anónima: self._procesar_resultado_voz(username, passphrase )
+        # crea una función pequeñita sin nombre que, cuando se ejecute, llamará a _procesar_resultado_voz(username, passphrase)”
 
     def _procesar_resultado_voz(self, username: str, passphrase: str | None):
         if passphrase is None:
@@ -173,8 +193,49 @@ class VoiceAuditApp:
 
         self.btn_hablar.config(state="normal")
 
+# ----------------------------------------------------- Registro
+    def registrar_por_voz(self):
+        username = self.username_entry.get().strip()
+
+        if not username:
+            self.set_status("falta username", "WARN")
+            self.log("Debes escribir el username antes de registrar.", "WARN")
+            return
+
+        self.btn_registrar.config(state="disabled")
+        self.set_status("escuchando frase para registro…", "INFO")
+        self.log(f"Registrando usuario '{username}'…", "INFO")
+
+        threading.Thread(target=self._registrar_en_hilo, args=(username,), daemon=True).start()
+
+    def _registrar_en_hilo(self, username: str):
+        try:
+            passphrase = self.voice.escuchar_frase()
+        except Exception as e:
+            passphrase = None
+            error_msg = str(e)
+            self.root.after(0, lambda: self.log(f"Error técnico registrando: {error_msg}", "ERR"))
+
+        self.root.after(0, lambda: self._procesar_registro(username, passphrase))
+
+    def _procesar_registro(self, username: str, passphrase: str | None):
+        if passphrase is None:
+            self.set_status("no se detectó voz", "WARN")
+            self.log("No se pudo registrar la frase. Intenta de nuevo.", "WARN")
+            self.btn_registrar.config(state="normal")
+            return
+
+        self.log(f"Frase registrada: '{passphrase}'", "INFO")
+
+        self.dao.registrar_usuario(username, passphrase)
+
+        self.set_status("usuario registrado", "OK")
+        self.log("Usuario registrado correctamente.", "OK")
+
+        self.btn_registrar.config(state="normal")
+
 
 if __name__ == "__main__":
-    root = tk.Tk()
-    app = VoiceAuditApp(root)
-    root.mainloop()
+    root = tk.Tk() # creamos la ventana de Tkinter
+    app = VoiceAuditApp(root) # esto ejecuta el init creando la clase VoiceAuditApp donde está la interfaz gráfica
+    root.mainloop() # es para que entre en un loop infinito en modo listener esperando y actualizando la interfaz

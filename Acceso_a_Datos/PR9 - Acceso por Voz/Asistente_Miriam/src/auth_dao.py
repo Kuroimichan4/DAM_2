@@ -5,11 +5,10 @@
 # y búsquedas ultrarrápidas, siendo mucho más ágil en su explotación que el JSON simple
 # o el texto plano cuando se manejan grandes volúmenes de datos
 
-import psycopg2
-from datetime import datetime
-from src.conexion_db import DBConnection
+import psycopg2 # librería traductora para hablar con PostgreSQL: connect(), cursor(), execute() o commit()
+from datetime import datetime # obtiene la hora y fechas actuales
+from src.conexion_db import DBConnection # importamos la clase de config para la conexióin
 import json # para convertir el dict a json
-import speech_recognition as sr
 
 
 class AuthDAO:
@@ -18,13 +17,15 @@ class AuthDAO:
 
         try:
             with conn.cursor() as curs: # el with cerraba el cursor de forma automática sin tener que hacer un close dentro de un finally
+                # creamos un cursor que es el objeto que ejecuta SQL
 
                 sql = "SELECT 1 FROM usuarios_voz WHERE username = %s;"
-                curs.execute(sql, (username,)) # una tupla de un solo elemento necesita una coma al final al parecer
+                curs.execute(sql, (username,)) # Execute de psycopg2 tiene que recibir, sí o sí una lista/tupla de valores
+                # Como en esta sentencia solo hay 1 parametro se pone una coma al final, para hacer creer a psycopg2 que es una tupla/lista de varios elementos
 
-                resultado = curs.fetchone()
+                resultado = curs.fetchone() #fetchone trae solo una fila
 
-                return resultado is not None # si existe es not null
+                return resultado is not None # si existe es not null y devuelve True
         except Exception as e:
             print("Error al verificar usuario: ", e)
             return False
@@ -54,7 +55,7 @@ class AuthDAO:
             print(f"Error en la base de datos: {e}")
         except Exception as e:
             conn.rollback()  # si algo falla, volver atras
-            print("Error al en el registro: ", e)
+            print("Error en el registro: ", e)
 
     def validar_login(self, username: str, passphrase: str) -> bool:
         conn = DBConnection.get_connection()
@@ -218,13 +219,12 @@ class AuthDAO:
             usuario_id = self.get_id_usuario(username)
 
             # Si el usuario no existe, no podemos meter usuario_id (sería NULL),
-            # pero igualmente podemos guardar un log "sin usuario" si queremos.
-            # Como tu tabla tiene FK, lo más simple es: solo loguear si existe.
+
             if usuario_id is None:
                 print("No se registra log: usuario no existe")
                 return
 
-            # Preparamos el JSON (dict de Python)
+            # Preparamos el JSON (diccionario de Python)
             resultado = {
                 "username": username,
                 "exito": exito,

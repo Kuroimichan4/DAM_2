@@ -1,0 +1,4 @@
+psycopg2-binary
+SpeechRecognition
+pyaudio # permite a python comunicarse con el hardware del micro
+python-dotenv
