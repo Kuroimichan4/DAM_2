@@ -1,0 +1,48 @@
+D:\M07- Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.ivaCalculator.resources
+D:\M07- Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.csproj.GenerateResource.cache
+D:\M07- Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.GeneratedMSBuildEditorConfig.editorconfig
+D:\M07- Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.AssemblyInfoInputs.cache
+D:\M07- Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.AssemblyInfo.cs
+D:\M07- Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.csproj.CoreCompileInputs.cache
+D:\M07- Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\bin\Debug\net8.0-windows\CalcIvaWinForms.exe
+D:\M07- Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\bin\Debug\net8.0-windows\CalcIvaWinForms.deps.json
+D:\M07- Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\bin\Debug\net8.0-windows\CalcIvaWinForms.runtimeconfig.json
+D:\M07- Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\bin\Debug\net8.0-windows\CalcIvaWinForms.dll
+D:\M07- Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\bin\Debug\net8.0-windows\CalcIvaWinForms.pdb
+D:\M07- Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.dll
+D:\M07- Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\refint\CalcIvaWinForms.dll
+D:\M07- Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.pdb
+D:\M07- Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.genruntimeconfig.cache
+D:\M07- Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\ref\CalcIvaWinForms.dll
+G:\OneDrive Monlau\DAM 1 OneDrive\OneDrive - Centre d'Estudis Monlau\DAM 2\0488-Desarrollo_de_Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\bin\Debug\net8.0-windows\CalcIvaWinForms.exe
+G:\OneDrive Monlau\DAM 1 OneDrive\OneDrive - Centre d'Estudis Monlau\DAM 2\0488-Desarrollo_de_Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\bin\Debug\net8.0-windows\CalcIvaWinForms.deps.json
+G:\OneDrive Monlau\DAM 1 OneDrive\OneDrive - Centre d'Estudis Monlau\DAM 2\0488-Desarrollo_de_Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\bin\Debug\net8.0-windows\CalcIvaWinForms.runtimeconfig.json
+G:\OneDrive Monlau\DAM 1 OneDrive\OneDrive - Centre d'Estudis Monlau\DAM 2\0488-Desarrollo_de_Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\bin\Debug\net8.0-windows\CalcIvaWinForms.dll
+G:\OneDrive Monlau\DAM 1 OneDrive\OneDrive - Centre d'Estudis Monlau\DAM 2\0488-Desarrollo_de_Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\bin\Debug\net8.0-windows\CalcIvaWinForms.pdb
+G:\OneDrive Monlau\DAM 1 OneDrive\OneDrive - Centre d'Estudis Monlau\DAM 2\0488-Desarrollo_de_Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.ivaCalculator.resources
+G:\OneDrive Monlau\DAM 1 OneDrive\OneDrive - Centre d'Estudis Monlau\DAM 2\0488-Desarrollo_de_Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.csproj.GenerateResource.cache
+G:\OneDrive Monlau\DAM 1 OneDrive\OneDrive - Centre d'Estudis Monlau\DAM 2\0488-Desarrollo_de_Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.GeneratedMSBuildEditorConfig.editorconfig
+G:\OneDrive Monlau\DAM 1 OneDrive\OneDrive - Centre d'Estudis Monlau\DAM 2\0488-Desarrollo_de_Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.AssemblyInfoInputs.cache
+G:\OneDrive Monlau\DAM 1 OneDrive\OneDrive - Centre d'Estudis Monlau\DAM 2\0488-Desarrollo_de_Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.AssemblyInfo.cs
+G:\OneDrive Monlau\DAM 1 OneDrive\OneDrive - Centre d'Estudis Monlau\DAM 2\0488-Desarrollo_de_Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.csproj.CoreCompileInputs.cache
+G:\OneDrive Monlau\DAM 1 OneDrive\OneDrive - Centre d'Estudis Monlau\DAM 2\0488-Desarrollo_de_Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.dll
+G:\OneDrive Monlau\DAM 1 OneDrive\OneDrive - Centre d'Estudis Monlau\DAM 2\0488-Desarrollo_de_Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\refint\CalcIvaWinForms.dll
+G:\OneDrive Monlau\DAM 1 OneDrive\OneDrive - Centre d'Estudis Monlau\DAM 2\0488-Desarrollo_de_Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.pdb
+G:\OneDrive Monlau\DAM 1 OneDrive\OneDrive - Centre d'Estudis Monlau\DAM 2\0488-Desarrollo_de_Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.genruntimeconfig.cache
+G:\OneDrive Monlau\DAM 1 OneDrive\OneDrive - Centre d'Estudis Monlau\DAM 2\0488-Desarrollo_de_Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\ref\CalcIvaWinForms.dll
+I:\2 DAM\M7 - Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\bin\Debug\net8.0-windows\CalcIvaWinForms.exe
+I:\2 DAM\M7 - Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\bin\Debug\net8.0-windows\CalcIvaWinForms.deps.json
+I:\2 DAM\M7 - Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\bin\Debug\net8.0-windows\CalcIvaWinForms.runtimeconfig.json
+I:\2 DAM\M7 - Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\bin\Debug\net8.0-windows\CalcIvaWinForms.dll
+I:\2 DAM\M7 - Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\bin\Debug\net8.0-windows\CalcIvaWinForms.pdb
+I:\2 DAM\M7 - Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.ivaCalculator.resources
+I:\2 DAM\M7 - Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.csproj.GenerateResource.cache
+I:\2 DAM\M7 - Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.GeneratedMSBuildEditorConfig.editorconfig
+I:\2 DAM\M7 - Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.AssemblyInfoInputs.cache
+I:\2 DAM\M7 - Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.AssemblyInfo.cs
+I:\2 DAM\M7 - Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.csproj.CoreCompileInputs.cache
+I:\2 DAM\M7 - Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.dll
+I:\2 DAM\M7 - Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\refint\CalcIvaWinForms.dll
+I:\2 DAM\M7 - Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.pdb
+I:\2 DAM\M7 - Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\CalcIvaWinForms.genruntimeconfig.cache
+I:\2 DAM\M7 - Desarrollo de Interficies\RA1_WinForms\CalcIvaWinForms\CalcIvaWinForms\obj\Debug\net8.0-windows\ref\CalcIvaWinForms.dll
